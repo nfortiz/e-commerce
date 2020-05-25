@@ -7,7 +7,7 @@
     "build": "webpack-cli --config webpack.config.js --mode production",
     "dev": "webpack-dev-server --open --mode development",
     "lint": "eslint src/ --ext .js --ext .jsx --fix",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "react",
@@ -47,7 +47,7 @@
   "jest": {
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom/extend-expect",
-      "<rootDir>/src/setupTests.js"
+      "<rootDir>/src/setUpTests.js"
     ]
   }
 }

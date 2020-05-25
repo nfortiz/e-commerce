@@ -1,4 +1,5 @@
 # E-commerce 
+[![Build Status](https://travis-ci.org/nfortiz/e-commerce.svg?branch=master)](https://travis-ci.org/nfortiz/e-commerce)
 ## Introduction
 This is a personal educative project that reflects my knowlegde in javascript, react js, webpack, testing( unit testing, end-to-end), html, css.
 
