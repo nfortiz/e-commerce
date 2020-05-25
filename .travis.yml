@@ -10,6 +10,7 @@ git:
   depth: 3
 script:
   - npm run test
+  - npm run coveralls
   - npm run build
 deploy:
   provider: pages
