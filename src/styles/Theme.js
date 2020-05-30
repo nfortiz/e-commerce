@@ -6,11 +6,13 @@ const theme = {
     secondary: '#303030',
     accent: '#FFFFFF',
     highlight: '#303030',
+    muted: '#E1E1E1',
   },
   fonts: {
     body: 'Roboto',
   },
   fontWeights: {
+    light: 300,
     body: 400,
     heading: 700,
     bold: 700,

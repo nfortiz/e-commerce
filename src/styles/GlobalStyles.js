@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
   :root {
     font-size: 16px;
   }
@@ -57,6 +56,9 @@ const GlobalStyles = createGlobalStyle`
   ul {
     list-style: none;
     padding-left: 0;
+  }
+  input::placeholder {
+    font-family: 'Roboto';
   }
 `;
 
