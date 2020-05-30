@@ -25,6 +25,11 @@ export const InfoList = styled.ul`
 export const InfoItem = styled.li`
   color: ${(props) => props.theme.colors.accent};
   display: inherit;
+  align-items: center;
+
+  & > svg {
+    margin-right: 5px;
+  }
 
   &:not(:first-child) {
     margin-left: 30px;
