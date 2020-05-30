@@ -1,8 +1,17 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
+
+import GlobalStyles from './styles/GlobalStyles';
+import Theme from './styles/Theme';
+
+import Home from './pages/Home';
 
 function App() {
   return (
-    <h1>E-commerce</h1>
+    <ThemeProvider theme={Theme}>
+      <GlobalStyles />
+      <Home />
+    </ThemeProvider>
   );
 }
 
